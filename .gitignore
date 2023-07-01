@@ -175,3 +175,5 @@ pyrightconfig.json
 loader/tmp_files
 flagged/*
 tmp_files/*
+knowledge_base/*
+chatglm-6b/*.bin
