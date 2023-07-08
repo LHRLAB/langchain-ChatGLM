@@ -1,7 +1,7 @@
-import gc
-import json
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="4"
+import gc
+import json
 import re
 import time
 from pathlib import Path

@@ -1,7 +1,7 @@
-from configs.model_config import *
-from chains.local_doc_qa import LocalDocQA
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="4"
+from configs.model_config import *
+from chains.local_doc_qa import LocalDocQA
 import nltk
 from models.loader.args import parser
 import models.shared as shared
